@@ -7,15 +7,15 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_right_side</sprite>
-    <sprite>sprites\spr_left_side</sprite>
+    <sprite>sprites\spr_kolize</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_right_side</object>
-    <object>objects\obj_letf_side</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_border_l</object>
+    <object>objects\obj_border_r</object>
+    <object>objects\obj_border_top</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
