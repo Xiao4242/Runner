@@ -12,10 +12,13 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_vmove.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_right_side</object>
     <object>objects\obj_letf_side</object>
-    <object>objects\obj_left_side</object>
+    <object>objects\obj_Player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
