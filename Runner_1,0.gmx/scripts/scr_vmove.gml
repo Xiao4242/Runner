@@ -1,10 +1,10 @@
 
-spd = 10;
+spd = 1;
 vspeed = spd;
 
-if (vspeed >= 100)
+if (vspeed >= 10)
     {
-    vspeed = 100
+    vspeed = 10
     }
 else
     {

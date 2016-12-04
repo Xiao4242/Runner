@@ -9,6 +9,7 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_right_side</sprite>
     <sprite>sprites\spr_left_side</sprite>
+    <sprite>sprites\spr_place_holder</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -17,8 +18,10 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_right_side</object>
-    <object>objects\obj_letf_side</object>
+    <object>objects\obj_left_side</object>
     <object>objects\obj_Player</object>
+    <object>objects\obj_spawner</object>
+    <object>objects\obj_despawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
