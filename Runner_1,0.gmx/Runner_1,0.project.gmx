@@ -12,14 +12,16 @@
     <sprite>sprites\spr_place_holder</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_player</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_vmove.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_right_side</object>
     <object>objects\obj_left_side</object>
-    <object>objects\obj_Player</object>
+    <object>objects\obj_player</object>
     <object>objects\obj_spawner</object>
     <object>objects\obj_despawner</object>
   </objects>
