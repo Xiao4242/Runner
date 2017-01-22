@@ -35,6 +35,13 @@ if !place_meeting(32, -128, obj_left_side)
     {
     instance_create(32, -128, obj_left_side)
     };
+    
+k = irandom(500);
+
+if k = 1
+    {
+         instance_create(room_width, 128, obj_obs_r);
+    }
 </string>
           </argument>
         </arguments>
