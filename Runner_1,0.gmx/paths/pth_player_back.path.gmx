@@ -7,10 +7,11 @@
   <vsnap>32</vsnap>
   <points>
     <point>704,832,100</point>
-    <point>576,736,100</point>
-    <point>480,704,100</point>
-    <point>288,704,100</point>
-    <point>192,736,100</point>
+    <point>608,768,100</point>
+    <point>544,736,100</point>
+    <point>384,704,100</point>
+    <point>224,736,100</point>
+    <point>160,768,100</point>
     <point>64,832,100</point>
   </points>
 </path>
