@@ -17,6 +17,7 @@
     right
 }
 
+instance_create(0,0, obj_score);
 instance_create(room_width, -128, obj_spawner);
 instance_create(32, room_height+256, obj_despawner);
 instance_create(room_width, room_height+256, obj_despawner);
@@ -24,8 +25,7 @@ instance_create(room_width, 0, obj_right_side);
 instance_create(32, 0, obj_left_side);
 instance_create(64, 832, obj_player);
 instance_create(64, 832, obj_jump_check_left);
-instance_create(704, 832, obj_jump_check_right);
-instance_create(0,0, obj_score);</code>
+instance_create(704, 832, obj_jump_check_right);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
