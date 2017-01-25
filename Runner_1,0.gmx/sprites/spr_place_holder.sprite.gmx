@@ -20,8 +20,6 @@
   <width>32</width>
   <height>128</height>
   <frames>
-    <frame index="0">images\spr_left_side_0.png</frame>
-    <frame index="1">images\spr_left_side_1.png</frame>
-    <frame index="2">images\spr_left_side_2.png</frame>
+    <frame index="0">images\spr_place_holder_0.png</frame>
   </frames>
 </sprite>

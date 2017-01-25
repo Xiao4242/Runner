@@ -1,0 +1,1 @@
+global.spd = 1;
