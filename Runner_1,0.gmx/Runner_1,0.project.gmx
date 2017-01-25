@@ -13,8 +13,6 @@
     <sprite>sprites\spr_jump_check</sprite>
     <sprite>sprites\spr_obs_r</sprite>
     <sprite>sprites\spr_obs_l</sprite>
-    <sprite>sprites\spr_blocker_l</sprite>
-    <sprite>sprites\spr_blocker_r</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -27,14 +25,6 @@
     <script>scripts\scr_player_jump.gml</script>
     <script>scripts\scr_player_left.gml</script>
     <script>scripts\scr_getinputs.gml</script>
-    <script>scripts\scr_obs_count.gml</script>
-    <script>scripts\scr_spawn_side_r.gml</script>
-    <script>scripts\scr_spawn_check_r.gml</script>
-    <script>scripts\scr_spawn_decider_r.gml</script>
-    <script>scripts\scr_spawn_counter.gml</script>
-    <script>scripts\scr_spawn_check_l.gml</script>
-    <script>scripts\scr_spawn_side_l.gml</script>
-    <script>scripts\scr_spawn_decider_l.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_right_side</object>
@@ -45,11 +35,7 @@
     <object>objects\obj_jump_check_right</object>
     <object>objects\obj_jump_check_left</object>
     <object>objects\obj_obs_r</object>
-    <object>objects\obj_obs_l</object>
     <object>objects\obj_score</object>
-    <object>objects\obj_blocker_l</object>
-    <object>objects\obj_blocker_r</object>
-    <object>objects\obj_globals</object>
   </objects>
   <rooms name="rooms"/>
   <help>

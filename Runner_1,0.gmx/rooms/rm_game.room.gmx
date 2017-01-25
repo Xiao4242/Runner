@@ -17,7 +17,6 @@
     right
 }
 
-instance_create(0,0, obj_globals);
 instance_create(room_width, -128, obj_spawner);
 instance_create(32, room_height+256, obj_despawner);
 instance_create(room_width, room_height+256, obj_despawner);
