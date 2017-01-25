@@ -51,9 +51,7 @@
     <object>objects\obj_blocker_r</object>
     <object>objects\obj_globals</object>
   </objects>
-  <rooms name="rooms">
-    <room>rooms\rm_game</room>
-  </rooms>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
