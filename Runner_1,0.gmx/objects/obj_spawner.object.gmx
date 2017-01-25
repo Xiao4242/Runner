@@ -25,7 +25,43 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if !place_meeting(room_width, -128, obj_right_side)
+            <string>scr_spawn_decider_r()
+scr_spawn_decider_l()
+
+
+
+/** ATTEMPT 2
+if !place_meeting(room_width, -128, obj_right_side) &amp;&amp; scr_obs_count(true)
+    {
+    instance_create(room_width, -128, obj_obs_r)
+    global.obs_count += 1
+    }
+else if !place_meeting(room_width, -128, obj_right_side)
+    {
+    instance_create(room_width, -128, obj_right_side)
+    };
+
+if !place_meeting(32, -128, obj_left_side) &amp;&amp; scr_obs_count(true)
+    {
+    instance_create(32, -128, obj_obs_l)
+    global.obs_count += 1
+    }
+else if !place_meeting(32, -128, obj_left_side)
+    {
+    instance_create(32, -128, obj_left_side)
+    };
+**/
+
+
+
+    
+
+    
+    
+
+
+/** ATTEMPT 1
+if !place_meeting(room_width, -128, obj_right_side)
     {
     instance_create(room_width, -128, obj_right_side)
     };
@@ -35,13 +71,7 @@ if !place_meeting(32, -128, obj_left_side)
     {
     instance_create(32, -128, obj_left_side)
     };
-    
-k = irandom(500);
-
-if k = 1
-    {
-         instance_create(room_width, 128, obj_obs_r);
-    }
+   **/ 
 </string>
           </argument>
         </arguments>
