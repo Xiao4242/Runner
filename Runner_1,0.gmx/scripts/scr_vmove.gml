@@ -1,5 +1,5 @@
 
-spd = 10;
+spd = 1;
 vspeed = spd;
 
 if (vspeed >= 10)
