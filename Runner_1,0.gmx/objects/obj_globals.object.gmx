@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.sprite_height_right = sprite_get_height(spr_right_side);
-global.sprite_height_left = sprite_get_height(spr_left_side);
+            <string>global.obs_count = 0;
+global.counter = 3;
 </string>
           </argument>
         </arguments>
